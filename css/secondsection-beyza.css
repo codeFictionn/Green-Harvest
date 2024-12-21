@@ -1,0 +1,38 @@
+#second-section {
+  width: 100%;
+  height: auto;
+  padding: 80px 20px;
+}
+.second-section-up {
+  width: 100%;
+  height: auto;
+  background-color: #576f35;
+  border-radius: 12px;
+  color: #fbfbfb;
+}
+.second-section-bottom {
+  width: 100%;
+  height: auto;
+  color: #141414;
+}
+
+@media (min-width: 768px) {
+  #second-section {
+    padding: 100px 32px;
+  }
+  #second-section h2 {
+    font-size: 64px;
+    line-height: 64px;
+    display: inline;
+  }
+}
+
+@media (min-width: 1280px) {
+  #second-section {
+    padding: 100px;
+  }
+  #second-section h2 {
+    font-size: 76px;
+    line-height: 76px;
+  }
+}
