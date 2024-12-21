@@ -78,7 +78,6 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    /* Sol ve sağ hizalama için */
 }
 
 #nav-logo-left {
@@ -183,11 +182,6 @@ header {
     color: #7A3145;
     background-color: #D4BFC4;
 }
-
-#navbar-right-button:active {
-    background-color: #FBFBFB;
-}
-
 
 .overlay-container {
     position: fixed;
@@ -410,6 +404,10 @@ header {
     #navbar-right-button:hover {
         background-color: #D4BFC4;
         color: #7A3145;
+    }
+
+    #navbar-right-button:active {
+        background-color: #FBFBFB;
     }
     
     
