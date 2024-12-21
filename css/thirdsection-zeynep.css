@@ -1,0 +1,62 @@
+#third-section {
+    background-color: #7a3145;
+    display: flex; /* Flexbox aktif edilir */
+    flex-direction: column; /* Dikey düzen */
+    gap: 40px; /* Elemanlar arası boşluk */
+    padding: 80px 20px;
+  }
+  .third-section-top {
+    display: flex; /* Flexbox aktif edilir */
+    flex-direction: column; /* Dikey düzen */
+    gap: 20px; /* Elemanlar arası boşluk */
+    max-width: 626px;
+  }
+  
+  .third-section-title {
+    color: white;
+    max-width: 335px;
+  }
+  
+  .third-section-text {
+    color: white;
+  }
+  
+  .third-section-bottom {
+    max-width: 1280px;
+    display: flex; /* Flexbox aktif edilir */
+    flex-wrap: wrap;
+    gap: 20px; /* Elemanlar arası boşluk */
+  }
+  
+  .vegetables-name {
+    color: #7a3145;
+  }
+  
+  .vegetables-cards {
+    width: 335px;
+    height: 376px;
+    padding: 32px 24px;
+    display: flex; /* Flexbox aktif edilir */
+    flex-direction: column; /* Dikey düzen */
+    gap: 10px; /* Elemanlar arası boşluk */
+    border-radius: 40px;
+    background-color: #fbfbfb;
+  }
+  
+  .vegetables-card {
+    display: flex; /* Flexbox aktif edilir */
+    flex-direction: column; /* Dikey düzen */
+    gap: 12px;
+  }
+  
+  .vegetables-texts {
+    display: flex; /* Flexbox aktif edilir */
+    flex-direction: column; /* Dikey düzen */
+    gap: 12px;
+  }
+  
+  .vegetables-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
