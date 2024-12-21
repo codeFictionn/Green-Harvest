@@ -1,0 +1,55 @@
+@import url(./header-meryem.css);
+@import url(./firstsection-feyza.css);
+@import url(./secondsection-beyza.css);
+@import url(./thirdsection-zeynep.css);
+@import url(./fourthsection-beyza.css);
+@import url(./fifthsection-yesim.css);
+@import url(./footer-cemgu.css);
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+img {
+    display: block;
+}
+
+h2 {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -0.75px;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    letter-spacing: -0.75px;
+    margin: 0;
+}
+
+body {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
