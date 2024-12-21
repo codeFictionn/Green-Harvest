@@ -89,6 +89,7 @@ header {
     align-items: center;
     /* Dikeyde ortalama */
     gap: 4px;
+    cursor: pointer;
 }
 
 .nav-logo-left-img {
@@ -140,6 +141,17 @@ header {
     text-align: center;
     color: #fbfbfb;
     background: none;
+    cursor: pointer;
+}
+
+#navbar-right-list-li:hover {
+    background-color: #d4bfc4;
+    color: #7A3145;
+    border: none;
+}
+
+#navbar-right-list-li:active {
+    background-color: white;
 }
 
 #navbar-right-button {
@@ -170,9 +182,13 @@ header {
 
 }
 
+#navbar-right-button:hover {
+    color: #7A3145;
+    background-color: #D4BFC4;
+}
+
 #navbar-right-button:active {
     background-color: #FBFBFB;
-    color: #7A3145;
 }
 
 
